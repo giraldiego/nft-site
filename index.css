@@ -11,10 +11,14 @@ body {
 
 /* Typography */
 
+h1,
+h3 {
+  margin: 0;
+}
+
 h1 {
   color: whitesmoke;
   font-size: 36px;
-  margin-bottom: 0;
 }
 
 h2 {
@@ -25,7 +29,6 @@ h2 {
 h3 {
   color: #d0aaff;
   font-size: 20px;
-  margin-top: 0;
 }
 
 /* links */
@@ -41,18 +44,19 @@ a:hover:active {
 
 /* layout */
 
-header {
-  background-color: #5f29a3;
+header,
+section,
+footer {
   padding: 45px 0;
 }
 
-section {
-  padding: 45px 0;
+header,
+.section-two {
+  background-color: #5f29a3;
 }
 
 .section-two {
   color: whitesmoke;
-  background-color: #5f29a3;
 }
 
 .section-two__img-container {
@@ -68,7 +72,6 @@ section {
 .container {
   width: 620px;
   margin: 0px auto;
-  /* border: 1px solid red; */
 }
 
 .main-img {
@@ -76,15 +79,13 @@ section {
 }
 
 footer {
-  padding: 45px 0;
   text-align: center;
   color: #5f29a3;
 }
+
 /* 
 Challenge:
-1. Center the footer's text horizontally.
-2. Give the text space top and bottom.
-   ⚠️ Don't add margin! Look at sections
-   and header for inspiration. 
-3. Give the text the correct color.
+1. Refactor the CSS to make it DRYer
+   by grouping selectors together where
+   possible.
 */
