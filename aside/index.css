@@ -24,7 +24,18 @@ Challenge:
 ⚠️ This will cause a layout issue!
  */
 
-button{
+ a {
+    padding: 10px 19px;
+    border-radius: 4px;
+    background-color: gold;
+    font-size: 14px;
+    color: #1d1e22;
+    border: none;
+    margin-top: 20px;
+    text-decoration: none;
+ }
+
+/* button{
     padding: 10px 19px;
     border-radius: 4px;
     background-color: #fff200;
@@ -34,7 +45,7 @@ button{
     color: #1d1e22;
     border: none;
     margin-top: 20px
-}
+} */
 
 .ad-container{
     border: 1px solid darkgoldenrod;
