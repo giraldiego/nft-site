@@ -3,6 +3,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+/* body * {
+    border: 1px dotted yellow;
+} */
+
 h1{
     margin: 0;
     color: whitesmoke;
@@ -30,6 +34,13 @@ Challenge:
 1. Set up a container selector.
 2. Give it a width of 500px.
 3. Align it centrally. */
+
+.container {
+    width: 600px;
+    margin: 0px auto;
+    /* border: 1px solid white; */
+    /* text-align: center; */
+}
 
 section{
     background-color: #dd6e42;
