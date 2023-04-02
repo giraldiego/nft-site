@@ -47,6 +47,7 @@ a:hover:active {
 }
 
 .btn {
+  display: inline-block;
   padding: 10px 19px;
   border-radius: 4.6px;
   font-weight: 500;
