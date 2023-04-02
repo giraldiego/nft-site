@@ -46,6 +46,49 @@ a:hover:active {
   color: #d4b44c;
 }
 
+.btn {
+  padding: 10px 19px;
+  border-radius: 4.6px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.btn:hover, .btn:hover {
+  background-color: #f3e885;
+  color: #2b283a;
+}
+
+.btn__dark {
+  background-color: #5f29a3;
+  color:whitesmoke;
+}
+
+.btn__light {
+  background-color:#f0e0ff;
+  color: #5f29a3;
+}
+
+.btn__white {
+  background-color:whitesmoke;
+  color: #5f29a3;
+}
+
+.btn-group {
+  margin: 30px 0px;
+}
+
+/* 
+Challenge:
+1. Style the 4 button-style links as per 
+   the specifications on the slide.
+2. Remember to group the selectors
+   where possible to keep the CSS DRY.
+⚠️ Think: what would make good class
+   names for these links? 
+*/
+
+
+
 /* layout */
 
 header,
